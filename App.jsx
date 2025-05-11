@@ -1,4 +1,5 @@
 import React from 'react'
+import Homepage from './Homepage'
 import {Routes, Route} from 'react-router-dom';
 
 
@@ -7,9 +8,9 @@ export default function App() {
   return (
     <>
     <Routes>
-      <Route path='/' element={<Homepage} />
+      <Route path='/' element={<Homepage />} />
     </Routes>
-    </>
     <div>App</div>
+    </>
   )
 }

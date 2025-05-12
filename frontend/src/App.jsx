@@ -9,6 +9,10 @@ export default function App() {
     <>
     <Routes>
       <Route path='/' element= {<HomePage />} />
+      {/* <Route path='/Login' element= {<HomePage />} />
+      <Route path='/Registration' element= {<HomePage />} />
+      <Route path='/Assessment' element= {<HomePage />} />
+      <Route path='/Results' element= {<HomePage />} /> */}
     </Routes>
     {/* <div>App</div> */}
     </>

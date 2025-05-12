@@ -1,6 +1,6 @@
-import React from 'react'
-import Homepage from './Homepage'
-import {Routes, Route} from 'react-router-dom';
+import React from 'react';
+import HomePage from './components/HomePage';
+import { Routes, Route } from 'react-router-dom';
 
 
 export default function App() {
@@ -8,9 +8,9 @@ export default function App() {
   return (
     <>
     <Routes>
-      <Route path='/' element={<Homepage />} />
+      <Route path='/' element= {<HomePage />} />
     </Routes>
-    <div>App</div>
+    {/* <div>App</div> */}
     </>
   )
 }
